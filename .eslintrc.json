@@ -101,11 +101,14 @@
     ],
     "max-lines-per-function": ["error", 100],
     "sort-keys": ["error", "asc"],
+    "import/prefer-default-export": "off",
+    "linebreak-style": 0,
 
     "react/no-danger": "error",
     "react/void-dom-elements-no-children": "error",
-    "import/prefer-default-export": "off",
-    "linebreak-style": 0
+    "react/jsx-pascal-case": "error",
+    "react/jsx-indent": ["error", 4],
+    "jsx-a11y/label-has-associated-control": "off"
   },
   "settings": {
     "react": {
