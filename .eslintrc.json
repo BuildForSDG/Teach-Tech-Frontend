@@ -96,7 +96,7 @@
     "max-len": [
       "error",
       {
-        "code": 100
+        "code": 200
       }
     ],
     "max-lines-per-function": ["error", 100],
@@ -108,6 +108,8 @@
     "react/void-dom-elements-no-children": "error",
     "react/jsx-pascal-case": "error",
     "react/jsx-indent": ["error", 4],
+    "react/jsx-indent-props": ["error", 4],
+    "react/jsx-fragments": "off",
     "jsx-a11y/label-has-associated-control": "off"
   },
   "settings": {

@@ -5,6 +5,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import { createGlobalStyle } from 'styled-components';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
+import OtherReq from './pages/OtherReq';
 
 // toast for notification
 toast.configure(
@@ -30,8 +31,9 @@ body {
 const App = () => (
     <BrowserRouter>
         <GlobalStyle />
-        <Route exact path="/" component={Login} />
-        <Route exact path="/signup" component={Signup} />
+        <Route exact path="/" component={Signup} />
+        <Route exact path="/login" component={Login} />
+        <Route exact path="/other-requirements" component={OtherReq} />
     </BrowserRouter>
 );
 
